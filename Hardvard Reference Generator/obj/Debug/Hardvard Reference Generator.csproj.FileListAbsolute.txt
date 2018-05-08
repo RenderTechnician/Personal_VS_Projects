@@ -1,0 +1,19 @@
+C:\Users\willr\source\repos\Hardvard Reference Generator\Hardvard Reference Generator\bin\Debug\Hardvard Reference Generator.exe.config
+C:\Users\willr\source\repos\Hardvard Reference Generator\Hardvard Reference Generator\bin\Debug\Hardvard Reference Generator.exe
+C:\Users\willr\source\repos\Hardvard Reference Generator\Hardvard Reference Generator\bin\Debug\Hardvard Reference Generator.pdb
+C:\Users\willr\source\repos\Hardvard Reference Generator\Hardvard Reference Generator\obj\Debug\MainWindow.g.cs
+C:\Users\willr\source\repos\Hardvard Reference Generator\Hardvard Reference Generator\obj\Debug\App.g.cs
+C:\Users\willr\source\repos\Hardvard Reference Generator\Hardvard Reference Generator\obj\Debug\Hardvard Reference Generator_MarkupCompile.cache
+C:\Users\willr\source\repos\Hardvard Reference Generator\Hardvard Reference Generator\obj\Debug\Hardvard Reference Generator_MarkupCompile.lref
+C:\Users\willr\source\repos\Hardvard Reference Generator\Hardvard Reference Generator\obj\Debug\MainWindow.baml
+C:\Users\willr\source\repos\Hardvard Reference Generator\Hardvard Reference Generator\obj\Debug\Hardvard Reference Generator.g.resources
+C:\Users\willr\source\repos\Hardvard Reference Generator\Hardvard Reference Generator\obj\Debug\Hardvard_Reference_Generator.Properties.Resources.resources
+C:\Users\willr\source\repos\Hardvard Reference Generator\Hardvard Reference Generator\obj\Debug\Hardvard Reference Generator.csproj.GenerateResource.Cache
+C:\Users\willr\source\repos\Hardvard Reference Generator\Hardvard Reference Generator\obj\Debug\Hardvard Reference Generator.csproj.CoreCompileInputs.cache
+C:\Users\willr\source\repos\Hardvard Reference Generator\Hardvard Reference Generator\obj\Debug\Hardvard Reference Generator.exe
+C:\Users\willr\source\repos\Hardvard Reference Generator\Hardvard Reference Generator\obj\Debug\Hardvard Reference Generator.pdb
+C:\Users\willr\source\repos\Hardvard Reference Generator\Hardvard Reference Generator\bin\Debug\Hardvard Reference Generator.exe.manifest
+C:\Users\willr\source\repos\Hardvard Reference Generator\Hardvard Reference Generator\bin\Debug\Hardvard Reference Generator.application
+C:\Users\willr\source\repos\Hardvard Reference Generator\Hardvard Reference Generator\obj\Debug\Hardvard Reference Generator.exe.manifest
+C:\Users\willr\source\repos\Hardvard Reference Generator\Hardvard Reference Generator\obj\Debug\Hardvard Reference Generator.application
+C:\Users\willr\source\repos\Hardvard Reference Generator\Hardvard Reference Generator\obj\Debug\Hardvard Reference Generator.csprojAssemblyReference.cache

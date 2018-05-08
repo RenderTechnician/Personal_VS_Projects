@@ -1,0 +1,46 @@
+﻿<Window x:Class="Hardvard_Reference_Generator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hardvard_Reference_Generator"
+        mc:Ignorable="d"
+        Title="Harvard Reference Generator" Height="543.734" Width="525">
+    <Grid RenderTransformOrigin="0.5,0.5">
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform ScaleY="0.95"/>
+                <SkewTransform/>
+                <RotateTransform/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <TextBox x:Name="Textbox1" KeyUp="OnKeyDownHandler" HorizontalAlignment="Left" Height="23" Margin="178,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322"/>
+        <TextBlock x:Name="Header1" HorizontalAlignment="Left" Margin="13,51,0,0" TextWrapping="Wrap" Text="Author:" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="22"/>
+        <Button Content="Copy To Clipboard" Click="Button_Click" HorizontalAlignment="Left" Margin="14,10,0,0" VerticalAlignment="Top" Width="124"/>
+        <Button x:Name="Clear_button" Click="Clear_button_Click" Content="Clear" HorizontalAlignment="Left" Margin="156,10,0,0" VerticalAlignment="Top" Width="47"/>
+        <ComboBox x:Name="Selector" DropDownClosed="dropselector" HorizontalAlignment="Left" Margin="225,9,0,0" VerticalAlignment="Top" Width="189"
+            Text="Is not open">
+            <ComboBoxItem Name="book">Reference A Book</ComboBoxItem>
+            <ComboBoxItem Name="website">Reference A Website</ComboBoxItem>
+            <ComboBoxItem Name="article">Reference An Article</ComboBoxItem>    
+        </ComboBox>
+
+
+
+        <TextBlock x:Name="Header2" Text="Article Title:" HorizontalAlignment="Left" Margin="13,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="22"/>
+        <TextBox x:Name="Textbox1_Copy" KeyUp="OnKeyDownHandler" HorizontalAlignment="Left" Height="23" Margin="178,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322"/>
+        <TextBox HorizontalAlignment="Left" Height="86" Margin="10,450,0,-23" TextWrapping="Wrap" Text="This software is free and always will be. If you paid money for this software then ensure that you ask for a refund. Donations are completely optional and greatly appreciated." VerticalAlignment="Top" Width="497" BorderThickness="1" IsReadOnly="True"/>
+        <TextBlock HorizontalAlignment="Left" Margin="225,487,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"><Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="google.com">Donate Here</Hyperlink></TextBlock>
+        <TextBlock x:Name="Header4" HorizontalAlignment="Left" Margin="11,164,0,0" TextWrapping="Wrap" Text="Website Name:" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="22"/>
+        <TextBox x:Name="Textbox1_Copy1" KeyUp="OnKeyDownHandler" HorizontalAlignment="Left" Height="23" Margin="178,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322"/>
+        <TextBlock x:Name="Header6" HorizontalAlignment="Left" Margin="13,249,0,0" TextWrapping="Wrap" Text="Publication Year:" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="22"/>
+        <TextBox x:Name="Textbox1_Copy2" KeyUp="OnKeyDownHandler" HorizontalAlignment="Left" Height="23" Margin="178,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322"/>
+        <TextBlock x:Name="Header5" HorizontalAlignment="Left" Margin="12,208,0,0" TextWrapping="Wrap" Text="Web Address:" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="22"/>
+        <TextBox x:Name="Textbox1_Copy3" KeyUp="OnKeyDownHandler" HorizontalAlignment="Left" Height="23" Margin="178,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322"/>
+        <TextBlock x:Name="Header3" HorizontalAlignment="Left" Margin="13,127,0,0" TextWrapping="Wrap" Text="Last Visited:" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="22"/>
+        <TextBox x:Name="Textbox1_Copy4" KeyUp="OnKeyDownHandler" HorizontalAlignment="Left" Height="23" Margin="178,249,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322"/>
+        <TextBox x:Name="Reference_string" HorizontalAlignment="Left" Height="85" Margin="13,360,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="494" IsReadOnly="True" BorderThickness="0"/>
+
+    </Grid>
+</Window>
